@@ -130,73 +130,73 @@
 // Tusk #11 1 фильтровать по цене. от 40000 до 60000 и год до 2019
 //          2
 
-const cars= [
-    {
-        make: "Ford",
-        model: "Mustang",
-        year: 1969,
-        color: "red",
-        price: 25000
-    },
-    {
-        make: "Ford",
-        model: "F-150",
-        year: 2017,
-        color: "blue",
-        price: 30000
-    },
-    {
-        make: "Tesla",
-        model: "Model S",
-        year: 2018,
-        color: "black",
-        price: 120000
-    },
-    {
-        make: "Chevrolet",
-        model: "Camaro",
-        year: 1970,
-        color: "orange",
-        price: 60000
-    },
-    {
-        make: "Dodge",
-        model: "Challenger",
-        year: 2019,
-        color: "red",
-        price: 35000
-    },
-    {
-        make: "Chevrolet",
-        model: "Corvette",
-        year: 2019,
-        color: "blue",
-        price: 90000
-    },
-    {
-        make: "Tesla",
-        model: "Model 3",
-        year: 2019,
-        color: "white",
-        price: 40000
-    },
-    {
-        make: "Mercedes",
-        model: "C-Class",
-        year: 2019,
-        color: "black",
-        price: 60000
-    }
-]
+// const cars= [
+//     {
+//         make: "Ford",
+//         model: "Mustang",
+//         year: 1969,
+//         color: "red",
+//         price: 25000
+//     },
+//     {
+//         make: "Ford",
+//         model: "F-150",
+//         year: 2017,
+//         color: "blue",
+//         price: 30000
+//     },
+//     {
+//         make: "Tesla",
+//         model: "Model S",
+//         year: 2018,
+//         color: "black",
+//         price: 120000
+//     },
+//     {
+//         make: "Chevrolet",
+//         model: "Camaro",
+//         year: 1970,
+//         color: "orange",
+//         price: 60000
+//     },
+//     {
+//         make: "Dodge",
+//         model: "Challenger",
+//         year: 2019,
+//         color: "red",
+//         price: 35000
+//     },
+//     {
+//         make: "Chevrolet",
+//         model: "Corvette",
+//         year: 2019,
+//         color: "blue",
+//         price: 90000
+//     },
+//     {
+//         make: "Tesla",
+//         model: "Model 3",
+//         year: 2019,
+//         color: "white",
+//         price: 40000
+//     },
+//     {
+//         make: "Mercedes",
+//         model: "C-Class",
+//         year: 2019,
+//         color: "black",
+//         price: 60000
+//     }
+// ]
+//
+// // // 1 Tusk
+// const arrayFilter = (arr) => {
+//     return arr.filter(car => car.price >= 40000 && car.price <= 60000 && car.year <= 2019)
+// }
+//
+// console.log(arrayFilter(cars))
 
-// // 1 Tusk
-const arrayFilter = (arr) => {
-    return arr.filter(car => car.price >= 40000 && car.price <= 60000 && car.year <= 2019)
-}
-
-console.log(arrayFilter(cars))
-
-// // 2 Tusk
+// // // 2 Tusk
 // const makes = (arr) => {
 //     return arr.map(el => el.make)
 // }
